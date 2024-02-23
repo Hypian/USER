@@ -1,0 +1,45 @@
+name: Publish
+
+on:
+  release:
+    types: [published]
+
+concurrency:
+  group: publish
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-engines
+
+      - name: Get version from tag
+        id: version
+        uses: actions/github-script@v6
+        with:
+          script: "require('./.github/scripts/get-version')({ core, tag: '${{ github.event.release.tag_name }}' })"
+
+      - name: Publish to VSCode marketplace
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: yarn vsce publish --no-dependencies --no-git-tag-version --skip-duplicate ${{ steps.version.outputs.value }}
+
+      - name: Push version changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "release: v${{ steps.version.outputs.value }} [skip ci]"
+          git push origin main

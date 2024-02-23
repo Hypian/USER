@@ -1,0 +1,82 @@
+{
+	"name": "vscode-theme-fullmetal",
+	"displayName": "Fullmetal Theme",
+	"description": "A dark theme with vibrant colors crafted with alchemy.",
+	"version": "1.6.4",
+	"author": "Daniel Zhang",
+	"publisher": "DanielZhang",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DanielHZhang/vscode-theme-fullmetal"
+	},
+	"bugs": "https://github.com/DanielHZhang/vscode-theme-fullmetal/issues",
+	"homepage": "https://github.com/DanielHZhang/vscode-theme-fullmetal",
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"color-theme",
+		"dark",
+		"fullmetal",
+		"theme"
+	],
+	"main": "build/extension.js",
+	"icon": "assets/logo.png",
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "saveBuiltInSchemas",
+				"title": "Save Built-in VSCode Schemas"
+			}
+		],
+		"themes": [
+			{
+				"label": "Fullmetal",
+				"path": "./themes/fullmetal-color-theme.json",
+				"uiTheme": "vs-dark"
+			}
+		]
+	},
+	"scripts": {
+		"build": "tsc-suppress && node build/theme.js",
+		"release": "release-it",
+		"schemas": "tsc-suppress && node build/schema.js",
+		"watch": "concurrently \"npm:watch-*\"",
+		"watch-generate": "nodemon --watch build build/theme.js",
+		"watch-compile": "tsc-suppress --watch",
+		"vscode:prepublish": "yarn build"
+	},
+	"devDependencies": {
+		"@supersede/eslint-config": "^1.3.0",
+		"@supersede/prettier-config": "^1.0.1",
+		"@types/node": "^18.11.9",
+		"@types/vscode": "1.69.0",
+		"@vscode/vsce": "^2.15.0",
+		"concurrently": "^7.6.0",
+		"eslint": "^8.28.0",
+		"json-schema-to-typescript": "^11.0.2",
+		"nodemon": "^2.0.20",
+		"prettier": "^2.7.1",
+		"release-it": "^15.5.0",
+		"semver": "^7.3.8",
+		"tsc-suppress": "^1.0.7",
+		"typescript": "^4.9.3"
+	},
+	"__metadata": {
+		"id": "e0edae8e-05c0-493a-91b2-a7ebab2f9b75",
+		"publisherId": "35aaccec-cc26-459c-91d9-5637ac3e4127",
+		"publisherDisplayName": "Daniel Zhang",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1708576654979
+	}
+}

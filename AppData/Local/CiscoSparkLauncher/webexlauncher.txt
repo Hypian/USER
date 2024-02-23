@@ -1,0 +1,40 @@
+2023-09-17T19:16:42.261Z Webex launcher started, location: *************\AppData\Local\Programs\Cisco Spark\CiscoCollabHost.exe, launcher version: 1.0.0.2
+2023-09-17T19:16:42.262Z starting version selector in *************\AppData\Local\CiscoSparkLauncher
+2023-09-17T19:16:42.262Z Found an original installation directory at: *************\AppData\Local\Programs\Cisco Spark\
+*** Creating a directory with name: *************\AppData\Local\Programs\Cisco Spark\
+Name: *************\AppData\Local\Programs\Cisco Spark\
+Executable: [*************\AppData\Local\Programs\Cisco Spark\spark-windows-app.dll], Version: 42.8.0.23281
+2023-09-17T19:16:42.263Z Current dir: *************\AppData\Local\Programs\Cisco Spark
+*** Creating a directory with name: *************\AppData\Local\Programs\Cisco Spark
+Name: *************\AppData\Local\Programs\Cisco Spark\
+Executable: [*************\AppData\Local\Programs\Cisco Spark\spark-windows-app.dll], Version: 42.8.0.23281
+2023-09-17T19:16:42.264Z The directory *************\AppData\Local\Programs\Cisco Spark\ is being compared to *************\AppData\Local\Programs\Cisco Spark\
+2023-09-17T19:16:42.264Z Result: true
+2023-09-17T19:16:42.264Z The directory *************\AppData\Local\Programs\Cisco Spark\ already exists, skipping.
+2023-09-17T19:16:42.264Z 
+2023-09-17T19:16:42.264Z Found 1 possible locations for Webex installations.
+2023-09-17T19:16:42.264Z 
+2023-09-17T19:16:42.264Z Directory: *************\AppData\Local\Programs\Cisco Spark\; integrityOk: 1; containsBinary: 1
+2023-09-17T19:16:42.264Z 
+2023-09-17T19:16:42.264Z Examining location *************\AppData\Local\Programs\Cisco Spark\
+2023-09-17T19:16:42.264Z Location contains Webex, is intact and it's a potential candidate.
+2023-09-17T19:16:42.264Z Considering *************\AppData\Local\Programs\Cisco Spark\ the best candidate so far, because 42.8.0.23281 is greater than 0.0.0.0
+2023-09-17T19:16:42.264Z 
+2023-09-17T19:16:42.264Z ******* ALL DIRECTORIES  ******
+2023-09-17T19:16:42.264Z 
+2023-09-17T19:16:42.264Z Explicitly marked as non-removable: *************\AppData\Local\Programs\Cisco Spark\
+2023-09-17T19:16:42.264Z 
+2023-09-17T19:16:42.264Z Marked 0 total directories for deletion.
+2023-09-17T19:16:42.264Z 
+2023-09-17T19:16:42.264Z *** LAUNCHING ***
+2023-09-17T19:16:42.265Z 
+2023-09-17T19:16:42.265Z User installation: true
+2023-09-17T19:16:42.265Z Attempting to launch spark executable with the following command: "*************\AppData\Local\Programs\Cisco Spark\CiscoCollabHost.exe" "*************\AppData\Local\Programs\Cisco Spark" spark-windows-app.dll /Hosted=true "*************\AppData\Local\Programs\Cisco Spark\CiscoCollabHost.exe" /minimized /autostartedWithWindows=true
+2023-09-17T19:16:42.265Z Folder successfully added to PATH: 
+2023-09-17T19:16:42.265Z *************\AppData\Local\Programs\Cisco Spark
+2023-09-17T19:16:42.270Z Managed to launch "*************\AppData\Local\Programs\Cisco Spark\CiscoCollabHost.exe" "*************\AppData\Local\Programs\Cisco Spark" spark-windows-app.dll /Hosted=true "*************\AppData\Local\Programs\Cisco Spark\CiscoCollabHost.exe" /minimized /autostartedWithWindows=true
+2023-09-17T19:16:42.270Z Process Launched. Removing older directories if appropriate
+2023-09-17T19:16:42.270Z 
+2023-09-17T19:16:42.270Z *** CLEANING UP *** 0 dirs
+2023-09-17T19:16:42.270Z 
+2023-09-17T19:16:42.270Z Exiting launcher.

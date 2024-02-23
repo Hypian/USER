@@ -1,0 +1,614 @@
+2023-09-17T19:16:43.094Z <Debug> [6620] main.cpp:519 Main::sparkWindowsDesktopMain:***** CMD ARGUMENT: ********\AppData\Local\Programs\Cisco Spark\CiscoCollabHost.exe
+2023-09-17T19:16:43.095Z <Debug> [6620] main.cpp:519 Main::sparkWindowsDesktopMain:***** CMD ARGUMENT: ********\AppData\Local\Programs\Cisco Spark
+2023-09-17T19:16:43.095Z <Debug> [6620] main.cpp:519 Main::sparkWindowsDesktopMain:***** CMD ARGUMENT: spark-windows-app.dll
+2023-09-17T19:16:43.095Z <Debug> [6620] main.cpp:519 Main::sparkWindowsDesktopMain:***** CMD ARGUMENT: /Hosted=true
+2023-09-17T19:16:43.095Z <Debug> [6620] main.cpp:519 Main::sparkWindowsDesktopMain:***** CMD ARGUMENT: ********\AppData\Local\Programs\Cisco Spark\CiscoCollabHost.exe
+2023-09-17T19:16:43.095Z <Debug> [6620] main.cpp:519 Main::sparkWindowsDesktopMain:***** CMD ARGUMENT: /minimized
+2023-09-17T19:16:43.095Z <Debug> [6620] main.cpp:519 Main::sparkWindowsDesktopMain:***** CMD ARGUMENT: /autostartedWithWindows=true
+2023-09-17T19:16:43.095Z <Info> [6620] main.cpp:527 Main::sparkWindowsDesktopMain: ****** Spark native has started ******
+2023-09-17T19:16:43.095Z <Debug> [6620] main.cpp:528 Main::sparkWindowsDesktopMain:****** Webex Shortcuts ******
+2023-09-17T19:16:43.095Z <Debug> [6620] main.cpp:529 Main::sparkWindowsDesktopMain:Skipping Webex shortcut creation. No previous Webex Teams shortcut found
+
+2023-09-17T19:16:43.095Z <Debug> [6620] main.cpp:530 Main::sparkWindowsDesktopMain:PERFORMANCE SNAPSHOT -> Start time:479137159
+2023-09-17T19:16:43.095Z <Info> [6620] main.cpp:539 Main::sparkWindowsDesktopMain:****** LocalAppData directory for current user contains NON-ASCII characters: false
+2023-09-17T19:16:43.095Z <Info> [6620] main.cpp:542 Main::sparkWindowsDesktopMain:Launch lock status: Aquisition stage: Start | Timeout stage: None
+2023-09-17T19:16:43.097Z <Info> [6620] MonitorUtils.cpp:118 MonitorUtils::applyDpiSettings:Monitor Config1.5;
+2023-09-17T19:16:43.100Z <Debug> [6620] UIRenderUtils.cpp:380 UIRenderUtils::intializeRenderState:Requested Render Backend is: angle
+2023-09-17T19:16:43.102Z <Debug> [6620] main.cpp:651 Main::sparkWindowsDesktopMain:Setting additional plugin library path to: ********\AppData\Local\Programs\Cisco Spark
+2023-09-17T19:16:43.177Z <Info> [6620] CrossLaunchSettings.cpp:38 commonHead::crosslaunch::CrossLaunchSettings::CrossLaunchSettings:
+2023-09-17T19:16:43.178Z <Info> [6620] ProcessTerminationMonitor_win.cpp:15 commonHead::ProcessTerminationMonitor::ProcessTerminationMonitor:
+2023-09-17T19:16:43.179Z <Info> [6620] WebExCrossLaunch.cpp:3259 commonHead::WebExCrossLaunch::startWbxMeetingCommunicator:XLaunch
+2023-09-17T19:16:43.185Z <Info> [6620] WebExCrossLaunch.cpp:1392 commonHead::WebExCrossLaunch::webexMeetingTrace: XLaunch: WbxMeetingCommunicatorImpl::start
+2023-09-17T19:16:43.185Z <Debug> [6620] WebExCrossLaunch.cpp:1395 commonHead::WebExCrossLaunch::webexMeetingTrace:MeetingIpcWinProc::MeetingIpcWinProc
+2023-09-17T19:16:43.185Z <Debug> [6620] WebExCrossLaunch.cpp:1395 commonHead::WebExCrossLaunch::webexMeetingTrace:MeetingIpcWinProc::Init
+2023-09-17T19:16:43.191Z <Debug> [6620] WebExCrossLaunch.cpp:1395 commonHead::WebExCrossLaunch::webexMeetingTrace:MeetingIpcWinProc::OnCreate
+2023-09-17T19:16:43.193Z <Info> [6620] WebExCrossLaunch.cpp:1392 commonHead::WebExCrossLaunch::webexMeetingTrace: XLaunch: CwsAppCommunicator::getCWSFileFullPath cws path: ********\AppData\Local\Programs\Cisco Spark\dependencies\CiscoWebExStart.exe 
+2023-09-17T19:16:43.193Z <Info> [6620] WebExCrossLaunch.cpp:3303 commonHead::WebExCrossLaunch::startMeetingManagerSDK:XLaunch
+2023-09-17T19:16:43.193Z <Info> [6620] WebExCrossLaunch.cpp:3438 commonHead::WebExCrossLaunch::initMeetingManagerWrapper:XLaunch.
+2023-09-17T19:16:43.193Z <Info> [6620] CWSWrapper_win.cpp:23 commonHead::crosslaunch::CWSWrapper::CWSWrapper:
+2023-09-17T19:16:43.194Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::Async::initialize
+2023-09-17T19:16:43.334Z <Info> [6620] MeetingManagerWrapper_win.cpp:112 commonHead::crosslaunch::MeetingManagerWrapper::stopOldDaemon:XLaunch, daemonPID = 0
+2023-09-17T19:16:43.335Z <Info> [6620] MeetingManagerWrapper.cpp:339 commonHead::crosslaunch::MeetingManagerWrapper::initialize:meetingManagerSDK version is : 11.41.11.0.8506.210923.0
+2023-09-17T19:16:43.335Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MeetingManagerSDK, XLaunch: MseLog, mm::MeetingManagerPS::initMeetingManagerProxy, timeout=0
+2023-09-17T19:16:43.335Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, ipcInitialize, 0x00007FFDE0BC7E7C, sIpcInitialized=FALSE, sCountOfReference=0
+2023-09-17T19:16:43.336Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::loadFeatureToggle, featureToggleFile=C:\Users\****\featureToggle.xml, isFileExists=FALSE
+2023-09-17T19:16:43.338Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::Ipc, ipcId=1, mNextInvokeId=9037, (uint32_t)mFlag=45
+2023-09-17T19:16:43.338Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::open, ipcId=1, mChannelIdA=00000588-0000383b-0000234d-00000da5-a, (uint32_t)mFlag=45
+2023-09-17T19:16:43.339Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::Ipc, ipcId=2, mNextInvokeId=30534, (uint32_t)mFlag=4778
+2023-09-17T19:16:43.339Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::open, ipcId=2, mChannelIdA=599338A3-FC7D-4E57-A639-737EA2B7FDBB-listen-a, (uint32_t)mFlag=4778
+2023-09-17T19:16:43.339Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::updateStatus, ipcId=2, mReady=TRUE, (int)reason=0
+2023-09-17T19:16:43.339Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::updateStatus, mStatusCallback = nullptr, cannot update status.
+2023-09-17T19:16:43.343Z <Info> [496] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Write thread is ended, ipcId=2
+2023-09-17T19:16:43.347Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: webex-cross-launch-user-enabled
+2023-09-17T19:16:43.347Z <Warn> [6620] WebExCrossLaunch.cpp:3358 commonHead::WebExCrossLaunch::initCalendarHelper:XLaunch, isWebExCrossLaunchEnabledFinal is false, no need to sync calendar.
+2023-09-17T19:16:43.347Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: dev-mode-desktop-webex-cross-launch
+2023-09-17T19:16:43.347Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-show-cross-launch-meeting-enabled
+2023-09-17T19:16:43.347Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-win-optional-webex-meetings-ga
+2023-09-17T19:16:43.347Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-win-optional-webex-meetings-ga
+2023-09-17T19:16:43.347Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: webex-cross-launch-user-enabled
+2023-09-17T19:16:43.347Z <Warn> [6620] WebExCrossLaunch.cpp:3396 commonHead::WebExCrossLaunch::initContactHelper:XLaunch, isWebExCrossLaunchEnabledFinal is false, no need to update self information.
+2023-09-17T19:16:43.347Z <Info> [6620] WebExCrossLaunch.cpp:3323 commonHead::WebExCrossLaunch::startMeetingDiscovery:XLaunch.
+2023-09-17T19:16:43.347Z <Info> [6620] MeetingListener.cpp:17 commonHead::crosslaunch::MeetingListener::MeetingListener:
+2023-09-17T19:16:43.348Z <Info> [6620] MeetingDiscovery_win.cpp:25 commonHead::crosslaunch::MeetingDiscovery::start:
+2023-09-17T19:16:43.348Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-animated-video-background-enabled-ga
+2023-09-17T19:16:43.348Z <Debug> [6620] CommonHeadFramework.cpp:74 commonHead::ICommonHeadFramework::CreateInstance:Provide default theme manager: 0000023762638DC0
+2023-09-17T19:16:43.353Z <Info> [2912] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::onHello, ipcId=1
+2023-09-17T19:16:43.353Z <Info> [2912] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::fromDescription, ipcId=1, mChannelIdA=00000588-0000383b-0000234d-00000da5-a, mChannelIdB=00000588-0000383b-0000234d-00000da5-b, mNextIncommingSerial=0, mNextOutgoingSerial=3493
+2023-09-17T19:16:43.353Z <Info> [2912] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, (uint32_t)mFlag=45, peer.ipcVersion=1.0, peer.info.processName=WebexHost.exe, peer.info.processId=9680, peer.info.ipcId=3
+2023-09-17T19:16:43.353Z <Info> [2912] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::onHello, ipcId=1, mPeer.channelIdA=00000588-0000383b-0000234d-00000da5-a, mPeer.channelIdB=00000588-0000383b-0000234d-00000da5-b, 1.0, ipcPeerFlag:Read|Write|SupportFragmental|
+2023-09-17T19:16:43.354Z <Info> [2912] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::onHello, ipcId=1, mPeer.info.processId=9680, aes256, 1042, 2967
+2023-09-17T19:16:43.354Z <Info> [2912] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::updateStatus, ipcId=1, mReady=TRUE, (int)reason=0
+2023-09-17T19:16:43.354Z <Info> [6620] CoreFramework.cpp:1580 CoreFramework::init: ****** CoreFramework has started ******
+2023-09-17T19:16:43.354Z <Info> [6620] CoreFramework.cpp:1588 CoreFramework::init:Local timezone: UTC +0200(hhmm)
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1589 CoreFramework::init:Application version: 42.8.0.23281
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1590 CoreFramework::init:Operating system version: 10.0.19041.3155 (64 bit)
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1591 CoreFramework::init:Operating system language: en-US
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1592 CoreFramework::init:Platform info: 20BTS32900 ; Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1593 CoreFramework::init:Persistent database path: ********\AppData\Local\CiscoSpark
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1594 CoreFramework::init:Roaming database path: ********\AppData\Local\CiscoSpark
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1595 CoreFramework::init:OS is 64 bit: 1
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1596 CoreFramework::init:Application is 64 bit: 1
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1597 CoreFramework::init:Desktop Environment: 
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1599 CoreFramework::init:Versions excluded from upgrade: 
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1606 CoreFramework::init:Current directory: ********\AppData\Local\Programs\Cisco Spark\dependencies
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1607 CoreFramework::init:WDM URL: 
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1608 CoreFramework::init:Atlas URL: 
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1609 CoreFramework::init:CI URL: 
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1610 CoreFramework::init:U2C URL: 
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1611 CoreFramework::init:Application Display Configuration: 1.5;
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1612 CoreFramework::init:Media path: 
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1613 CoreFramework::init:Mercury path: 
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1614 CoreFramework::init:WDM device type: WINDOWS
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1615 CoreFramework::init:Application type: Native Desktop
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1616 CoreFramework::init:Installation ID: 
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1617 CoreFramework::init:Product name: Spark native for Windows
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1618 CoreFramework::init:Eula is enabled: 1
+2023-09-17T19:16:43.355Z <Info> [6620] CoreFramework.cpp:1619 CoreFramework::init:Developer version: 0
+2023-09-17T19:16:43.369Z <Debug> [6620] NetworkManager.cpp:103 network::NetworkManager::NetworkManager:newnet: instantiating default HttpRequestManager
+2023-09-17T19:16:43.624Z <Debug> [6620] WindowsUpgradeStrategy.cpp:29 WindowsUpgradeStrategy::init:Upgrade patcher is available
+2023-09-17T19:16:43.912Z <Debug> [6620] VirtualChannelManagerLoader.cpp:37 VirtualChannelManagerLoader::loadVDIFrameworkLibrary:Completed Loading Services Library ********\AppData\Local\Programs\Cisco Spark\dependencies\VDIFramework.dll
+2023-09-17T19:16:43.913Z <Debug> [6620] VdiManager.cpp:300 IVdiManager::CreateInstance:VdiManager has been created.
+2023-09-17T19:16:43.919Z <Debug> [6620] DatabaseLifecycle.cpp:451 DatabaseLifecycle::initComponent:Found shared database, attempting to open it.
+2023-09-17T19:16:43.926Z <Debug> [6620] DBWrapper.cpp:277 DatabaseWrapper::DBWrapper::openDatabase:opened db - sharedDb
+2023-09-17T19:16:43.930Z <Info> [6620] DBWrapper.cpp:2129 DatabaseWrapper::DBWrapper::logJournalMode:journal mode = delete
+2023-09-17T19:16:43.951Z <Debug> [6620] DatabaseLifecycle.cpp:457 DatabaseLifecycle::initComponent:Managed to open shared database, proceeding with normal login.
+2023-09-17T19:16:43.952Z <Debug> [6620] AsyncQueue.cpp:257 AsyncQueue::_create_task:Task created while thread pool is processing initialiser tasks, adding the task to the deferred queue: sharedDb
+2023-09-17T19:16:43.952Z <Info> [11476] AsyncQueue.cpp:206 AsyncQueue::_swapQueues:Threadpool state is now running, name: sharedDb
+2023-09-17T19:16:43.953Z <Info> [6620] CoreFramework.cpp:1696 CoreFramework::init:Installation Identifier: ca6cca8b-6dcc-4b1c-a198-1a73e3f9f057
+2023-09-17T19:16:43.953Z <Info> [6620] CoreFramework.cpp:1699 CoreFramework::init:sessionId is ca6cca8b-6dcc-4b1c-a198-1a73e3f9f057-1694978203355
+2023-09-17T19:16:43.953Z <Info> [6620] CoreFramework.cpp:1711 CoreFramework::init:PreLogin Identifier: 3ba76427-fb24-4e8a-ad09-cff75fedc85d
+2023-09-17T19:16:43.957Z <Info> [6620] NetworkHelper_win.cpp:34 NetworkHelperWin::NetworkHelperWin:load wlanapi.dll
+2023-09-17T19:16:43.957Z <Debug> [10856] DatabaseLifecycle.cpp:3435 DatabaseLifecycle::initPreLoginDb::<lambda_a2dacbdaa03cd2a0ca877eb5062cadc1>::operator ():Found preLogin database, attempting to open it.
+2023-09-17T19:16:43.957Z <Info> [10680] CoreFramework.cpp:1719 CoreFramework::init::<lambda_91417db4f40dba74f2a80e1155c6ee2e>::operator ():mUseLegacyLogin from sharedDB: 
+2023-09-17T19:16:43.959Z <Info> [10856] EncryptionKeyStorageUtilsWin.cpp:145 encryption::decryptAndDecodeKey:Successfully obtained the database key. Doing base 64 decoding on the key.
+2023-09-17T19:16:43.960Z <Info> [6620] AuthenticationManager.cpp:124 network::AuthenticationManager::updateRequiredScopes:Update scopes
+2023-09-17T19:16:43.960Z <Debug> [10856] DBWrapper.cpp:277 DatabaseWrapper::DBWrapper::openDatabase:opened db - preLoginDb
+2023-09-17T19:16:43.961Z <Info> [6620] OAuthConfigFactory.cpp:170 network::OAuthConfigFactory::setOAuthScopes:Updating cloudapps scopes Identity:Organization Identity:SCIM spark:all webexsquare:get_conversation
+2023-09-17T19:16:43.961Z <Info> [10856] DBWrapper.cpp:2129 DatabaseWrapper::DBWrapper::logJournalMode:journal mode = delete
+2023-09-17T19:16:43.961Z <Error> [6620] AuthenticationManager.cpp:183 network::AuthenticationManager::updateRequiredScopes:Don't update scopes because tokens are not available.
+2023-09-17T19:16:43.963Z <Info> [6620] LifecycleModeManager.cpp:102 LifecycleModeManager::setLifecycleMode:Set lifecycle mode from Startup to Full
+2023-09-17T19:16:43.968Z <Info> [10680] AsyncQueue.cpp:348 AsyncQueue::resumeProcessing:Threadpool was not SUSPENDED, taking no action: sharedDb
+2023-09-17T19:16:43.969Z <Info> [10680] AsyncQueue.cpp:351 AsyncQueue::resumeProcessing:Exiting, mIsSuspended state is 0, name: sharedDb
+2023-09-17T19:16:43.969Z <Info> [10680] AsyncQueue.cpp:348 AsyncQueue::resumeProcessing:Threadpool was not SUSPENDED, taking no action: preLoginDb
+2023-09-17T19:16:43.969Z <Info> [10680] AsyncQueue.cpp:351 AsyncQueue::resumeProcessing:Exiting, mIsSuspended state is 0, name: preLoginDb
+2023-09-17T19:16:43.969Z <Info> [10680] LifecycleModeManager.cpp:141 LifecycleModeManager::prepareForSuspensionIfRequired:Starting prepareForSuspensionIfRequired; forceToSuspend: false
+2023-09-17T19:16:43.969Z <Info> [10680] LifecycleModeManager.cpp:146 LifecycleModeManager::prepareForSuspensionIfRequired:Checking if should prepare for suspension; mLifecycleMode=Full mPreviousLifecycleMode=Startup mIsMediaActive=0 mIsCallKitCallActive=0 mIsServicesReady=0 mIsOkToSuspendAgain=1
+2023-09-17T19:16:43.969Z <Info> [10680] LifecycleModeManager.cpp:230 LifecycleModeManager::prepareForSuspensionIfRequired:Not preparing for suspension
+2023-09-17T19:16:43.974Z <Debug> [6620] UCConnectionHealthManager.cpp:41 commonHead::UCConnectionHealthManager::init:UCConnectionHealthManager::init
+2023-09-17T19:16:43.978Z <Debug> [10856] DatabaseLifecycle.cpp:3442 DatabaseLifecycle::initPreLoginDb::<lambda_a2dacbdaa03cd2a0ca877eb5062cadc1>::operator ():Managed to open preLogin database
+2023-09-17T19:16:43.980Z <Debug> [6620] UCConnectionHealthManager.cpp:66 commonHead::UCConnectionHealthManager::initServices:UCConnectionHealthManager start working
+2023-09-17T19:16:43.982Z <Error> [6620] UCConnectionHealthManager.cpp:265 commonHead::UCConnectionHealthManager::buildUCLoginHealthInfo:UCLogin Service handle expired
+2023-09-17T19:16:43.982Z <Debug> [10856] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onDatabaseInitializationComplete for service: ContactService
+2023-09-17T19:16:43.984Z <Debug> [10856] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onDatabaseInitializationComplete for service: DynamicDependenciesService
+2023-09-17T19:16:43.984Z <Debug> [10856] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onDatabaseInitializationComplete for service: OAuthHelperService
+2023-09-17T19:16:43.984Z <Debug> [10856] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onDatabaseInitializationComplete for service: OnboardingService
+2023-09-17T19:16:43.984Z <Debug> [10856] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onDatabaseInitializationComplete for service: TelemetryService
+2023-09-17T19:16:43.984Z <Debug> [10856] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onDatabaseInitializationComplete for service: UpgradeService
+2023-09-17T19:16:43.984Z <Debug> [10856] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onDatabaseInitializationComplete for service: WebexMeetingServicePreLogin
+2023-09-17T19:16:43.984Z <Debug> [6620] MeetingGlobalNotificationManager.cpp:22 commonHead::MeetingGlobalNotificationManager::init:MeetingGlobalNotificationManager::init
+2023-09-17T19:16:43.984Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-whiteboard-webview-render-enabled-dev
+2023-09-17T19:16:44.052Z <Debug> [6620] SparkApp.cpp:303 SparkApp::SparkApp:Reading double length string value from QSettings: 0
+2023-09-17T19:16:44.052Z <Debug> [6620] SparkApp.cpp:312 SparkApp::SparkApp:Reading RTL value from QSettings: 0
+2023-09-17T19:16:44.052Z <Debug> [6620] SparkApp.cpp:325 SparkApp::SparkApp:Default font: Segoe UI,-1,16,5,50,0,0,0,0,0
+2023-09-17T19:16:44.052Z <Debug> [6620] SparkApp.cpp:326 SparkApp::SparkApp:Qt 5.15.2
+2023-09-17T19:16:44.052Z <Debug> [6620] SparkApp.cpp:330 SparkApp::SparkApp:qt.conf content: [Paths]
+Prefix = reading_qtconf_from_resources
+2023-09-17T19:16:44.052Z <Info> [6620] MonitorUtils.cpp:133 MonitorUtils::unsetEnvVars:Unsetting dpi env variables
+2023-09-17T19:16:44.053Z <Info> [6620] CoreFramework.cpp:937 CoreFramework::processProtocolUri:try to cache the protocolUri for normal uri.
+2023-09-17T19:16:44.053Z <Info> [6620] ApplicationRunner.cpp:167 ApplicationRunner::runApplication:PrefixPathg: C:/Users/********/AppData/Local/Programs/Cisco Spark/reading_qtconf_from_resources
+2023-09-17T19:16:44.053Z <Info> [6620] ApplicationRunner.cpp:168 ApplicationRunner::runApplication:ApplicationDirPath: C:/Users/********/AppData/Local/Programs/Cisco Spark
+2023-09-17T19:16:44.053Z <Debug> [6620] UIRenderUtils.cpp:456 UIRenderUtils::checkOpenGLContext:Checking OpenGL context for angle backend
+2023-09-17T19:16:44.750Z <Info> [6620] UIWatchDog.cpp:27 `anonymous-namespace'::getHangDurationThreshold:Hang detection threshold: 5000
+2023-09-17T19:16:44.750Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-hang-detection-enable-trace
+2023-09-17T19:16:44.750Z <Debug> [6620] UIWatchDog.cpp:91 UIWatchDogImpl::UIWatchDogImpl:send trace in telemetry 0
+2023-09-17T19:16:44.751Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MeetingManagerSDK, XLaunch: MseLog, MeetingManagerPS::onProxyReady, peer.processId=9680, peer.processName=WebexHost.exe
+2023-09-17T19:16:44.751Z <Warn> [6620] MeetingManagerWrapper.cpp:32 commonHead::crosslaunch::WBXLogger::logMessage:MeetingManagerSDK, XLaunch: MseLog, MeetingManagerProxy::onProxyStatusChanged, mMeetingManagerEverOk=FALSE, mMeeingManagerQuit=FALSE
+2023-09-17T19:16:44.752Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::Ipc::close, ipcId=2, mReady=TRUE
+2023-09-17T19:16:44.752Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::Ipc::byebye, ipcId=2, (int)reason=65530
+2023-09-17T19:16:44.752Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::updateStatus, ipcId=2, mReady=FALSE, (int)reason=65530
+2023-09-17T19:16:44.752Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::updateStatus, mStatusCallback = nullptr, cannot update status.
+2023-09-17T19:16:44.752Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::Ipc::doClose, ipcId=2, mReady=FALSE, mFragments.size()=0
+2023-09-17T19:16:44.752Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::Ipc::doClose, ipcId=2, mReady=FALSE
+2023-09-17T19:16:44.753Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::~Ipc, ipcId=2, mNextInvokeId=30535
+2023-09-17T19:16:44.753Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::IpcManager::addToWaitList, start monitor: , processId=9680
+2023-09-17T19:16:44.753Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MeetingManagerSDK, XLaunch: MseLog, MeetingManagerProxy::onProxyStatusChanged, re-sync peer information
+2023-09-17T19:16:44.772Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-load-inverted-theme
+2023-09-17T19:16:45.098Z <Debug> [6620] SparkApp.cpp:463 SparkApp::setApplicationTheme:setApplicationTheme Dark
+2023-09-17T19:16:45.100Z <Warn> [6620] MeetingManagerWrapper.cpp:32 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, timerUtil, too long , main-thread busy?, 346
+2023-09-17T19:16:45.319Z <Debug> [6620] StateMachine.h:55 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::BannerStateEnum,enum ConnectivityBanner::BannerEventEnum>::initialize:ConnectivityStateMachine::ConnectivityBanner - Initializing with state: Connected
+2023-09-17T19:16:45.320Z <Debug> [6620] StateMachine.h:55 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::NetworkStateEnum,enum NetworkEvent>::initialize:ConnectivityStateMachine::Network - Initializing with state: NoNetwork
+2023-09-17T19:16:45.320Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-conban-no-network-wait
+2023-09-17T19:16:45.320Z <Debug> [6620] States.h:60 ConnectivityBanner::Timeout<enum ConnectivityBanner::NetworkStateEnum>::getTimeout:ConnectivityBannerStateMachine - Returning default timeout of 15seconds.
+2023-09-17T19:16:45.320Z <Debug> [6620] StateMachine.h:55 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::ServicesStateEnum,enum ConnectivityBanner::ServicesStateEnum>::initialize:ConnectivityStateMachine::Services - Initializing with state: Connected
+2023-09-17T19:16:45.320Z <Debug> [6620] StateMachine.h:55 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::MercuryStateEnum,enum MercuryState>::initialize:ConnectivityStateMachine::Mercury - Initializing with state: Disconnected
+2023-09-17T19:16:45.320Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-conban-no-mercury-wait
+2023-09-17T19:16:45.320Z <Debug> [6620] States.h:60 ConnectivityBanner::Timeout<enum ConnectivityBanner::MercuryStateEnum>::getTimeout:ConnectivityBannerStateMachine - Returning default timeout of 60seconds.
+2023-09-17T19:16:45.320Z <Debug> [6620] StateMachine.h:55 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::AuthenticationStateEnum,enum NetworkEvent>::initialize:ConnectivityStateMachine::Authentication - Initializing with state: UserNotAuthenticated
+2023-09-17T19:16:45.320Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-conban-no-ci-wait
+2023-09-17T19:16:45.320Z <Debug> [6620] States.h:60 ConnectivityBanner::Timeout<enum ConnectivityBanner::AuthenticationStateEnum>::getTimeout:ConnectivityBannerStateMachine - Returning default timeout of 60seconds.
+2023-09-17T19:16:45.321Z <Debug> [6620] StateMachine.h:55 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::SyncingStateEnum,enum ConnectivityBanner::SyncingEventEnum>::initialize:ConnectivityStateMachine::Syncing - Initializing with state: Synced
+2023-09-17T19:16:45.322Z <Debug> [6620] ServiceErrorViewModel.cpp:19 commonHead::viewModels::IServiceErrorViewModel::CreateInstance:Create instance
+2023-09-17T19:16:45.326Z <Info> [6620] RequestJoinMeetingViewModel.cpp:92 commonHead::viewModels::RequestJoinMeetingViewModel::RequestJoinMeetingViewModel:create RequestJoinMeetingViewModel
+2023-09-17T19:16:45.326Z <Debug> [6620] RequestJoinMeetingViewModel.cpp:97 commonHead::viewModels::RequestJoinMeetingViewModel::init:init RequestJoinMeetingViewModel
+2023-09-17T19:16:45.331Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-dynamic-resources-spellcheck-enabled_v2
+2023-09-17T19:16:45.338Z <Info> [6620] BrowserFactoryWindows.cpp:191 EmbeddedBrowser::Factory::BrowserFactory::initComponents:WebView2 Runtime installed version: 116.0.1938.69
+2023-09-17T19:16:45.385Z <Debug> [6620] AccessoriesEventViewModel.cpp:33 commonHead::viewModels::AccessoriesEventViewModel::init:AccessoriesEventViewModel is initialized
+2023-09-17T19:16:45.385Z <Debug> [6620] AccessoriesWbxBtnEvent.cpp:9 AccessoriesWbxBtnEventEmmitter::AccessoriesWbxBtnEventEmmitter:AccessoriesWbxBtnEventEmmitter
+2023-09-17T19:16:45.385Z <Debug> [6620] MigrationFromJabberController.cpp:55 MigrationFromJabberController::MigrationFromJabberController:construct migration controller
+2023-09-17T19:16:45.385Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-migration-from-jabber-enabled
+2023-09-17T19:16:45.385Z <Debug> [6620] MigrationFromJabberController.cpp:58 MigrationFromJabberController::MigrationFromJabberController:construct migration controller, but feature is not supported.
+2023-09-17T19:16:46.188Z <Info> [10856] WebExCrossLaunch.cpp:1392 commonHead::WebExCrossLaunch::webexMeetingTrace: XLaunch: CwsJobMgrImpl::reset
+2023-09-17T19:16:46.189Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:16:46.813Z <Info> [6620] OnboardingViewModel.cpp:111 commonHead::viewModels::OnboardingViewModel::init:[Onboarding] {"id":"OnboardingViewModel Successfully Created","preLoginId":"NA","attemptId":"NA"}
+2023-09-17T19:16:46.814Z <Info> [6620] NetworkHelper_win.cpp:34 NetworkHelperWin::NetworkHelperWin:load wlanapi.dll
+2023-09-17T19:16:46.814Z <Debug> [6620] AsyncQueue.cpp:257 AsyncQueue::_create_task:Task created while thread pool is processing initialiser tasks, adding the task to the deferred queue: preLoginDb
+2023-09-17T19:16:46.814Z <Info> [11208] AsyncQueue.cpp:206 AsyncQueue::_swapQueues:Threadpool state is now running, name: preLoginDb
+2023-09-17T19:16:46.816Z <Debug> [6620] OnboardingViewModel.cpp:5111 commonHead::viewModels::OnboardingViewModel::getOnboardingState:[Onboarding] {"id":"UserName, UserId availability status","preLoginId":"NA","attemptId":"NA","userNameAvailable":"true","userIdAvailable":"true"}
+2023-09-17T19:16:46.826Z <Debug> [6620] OnboardingViewModel.cpp:5111 commonHead::viewModels::OnboardingViewModel::getOnboardingState:[Onboarding] {"id":"UserName, UserId availability status","preLoginId":"NA","attemptId":"NA","userNameAvailable":"true","userIdAvailable":"true"}
+2023-09-17T19:16:46.887Z <Debug> [6620] OnboardingController.cpp:250 OnboardingController::refreshOnboardingView:Attempt onboarding.
+2023-09-17T19:16:46.887Z <Info> [6620] OnboardingViewModel.cpp:5705 commonHead::viewModels::OnboardingViewModel::startLogin:[Onboarding] {"id":"Starting Login Process","preLoginId":"NA","attemptId":"NA"}
+2023-09-17T19:16:46.887Z <Info> [6620] OnboardingService.cpp:462 OnboardingService::checkIfCachedUser:[Onboarding] {"id":"Started - Check if the user is a cached user","preLoginId":"NA","attemptId":"NA"}
+2023-09-17T19:16:46.887Z <Info> [6620] LifecycleManager.cpp:326 LifecycleManager::attemptToLoginWithCachedUser:[Onboarding] Attempting to login based on previously logged in credentials.
+2023-09-17T19:16:46.892Z <Debug> [10856] LifecycleManager.cpp:460 LifecycleManager::attemptToLoginWithCachedUser::<lambda_e7f9c3268d0e3c8630ebbf20252ed61c>::operator ():[Onboarding] Could not find previous user in the shared database.
+2023-09-17T19:16:46.892Z <Info> [10856] OnboardingService.cpp:473 OnboardingService::checkIfCachedUser::<lambda_e098c7cc0951efed2c60c6598a8ea569>::operator ():[Onboarding] {"id":"Completed - Check if cached user respnse","preLoginId":"NA","attemptId":"NA","cachedUserFound":false,"dbContainsData":false}
+2023-09-17T19:16:46.893Z <Debug> [10856] OnboardingViewModel.cpp:5111 commonHead::viewModels::OnboardingViewModel::getOnboardingState:[Onboarding] {"id":"UserName, UserId availability status","preLoginId":"NA","attemptId":"NA","userNameAvailable":"true","userIdAvailable":"true"}
+2023-09-17T19:16:46.894Z <Debug> [10856] OnboardingViewModel.cpp:2246 commonHead::viewModels::OnboardingViewModel::fireLoginStateChangeNotification:[Onboarding] {"id":"Firing Onboarding state change notification. ","preLoginId":"NA","attemptId":"NA","currentState":"Initializing","previousState":"NotStarted","reason":"00000000-0000-0000-0000-000000000000","userErrorMessage":"","actualErrorMessage":"","showSpinner":"true","showServiceError":"false","showErrorText":"false","showPopupChanged":"false","showInfoTextChanged":"false","showSettingsMenu":"00000000-0000-0000-0000-000000000000","showNavigationIcon":"00000000-0000-0000-0000-000000000000","showBanner":"false","spinner":"true","AppServerEnvType":"Webex"}
+2023-09-17T19:16:46.895Z <Debug> [10856] OnboardingAdapter.cpp:82 OnboardingAdapter::fetchRegionInfo:[Onboarding] {"id":"Started - Fetch region info","preLoginId":"NA","attemptId":"NA"}
+2023-09-17T19:16:46.896Z <Debug> [10856] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577"}
+2023-09-17T19:16:46.897Z <Debug> [10856] HttpRequestManager.cpp:540 network::HttpRequestManager::createHttpConfig:Withholding access token
+2023-09-17T19:16:46.898Z <Debug> [10856] OnboardingViewModel.cpp:4597 commonHead::viewModels::OnboardingViewModel::onJoinMeetingAllowedResponse:[Onboarding] {"id":"Configuration Params","preLoginId":"NA","attemptId":"NA","isLoginHintValid":"false","isMigrationEmailValid":"false","fedRAMPEnabled":false,"orgIdAvailable":"false","isCiscoApp":true,"isJoinMeetingStartInitialState":false}
+2023-09-17T19:16:46.898Z <Debug> [10856] OnboardingViewModel.cpp:5111 commonHead::viewModels::OnboardingViewModel::getOnboardingState:[Onboarding] {"id":"UserName, UserId availability status","preLoginId":"NA","attemptId":"NA","userNameAvailable":"true","userIdAvailable":"true"}
+2023-09-17T19:16:46.898Z <Debug> [10856] OnboardingViewModel.cpp:2202 commonHead::viewModels::OnboardingViewModel::hasOnboardingModelChanged:[Onboarding] {"id":"Onboarding Model Changed. ","hasChanged":"true"}
+2023-09-17T19:16:46.899Z <Debug> [10856] OnboardingViewModel.cpp:2246 commonHead::viewModels::OnboardingViewModel::fireLoginStateChangeNotification:[Onboarding] {"id":"Firing Onboarding state change notification. ","preLoginId":"NA","attemptId":"NA","currentState":"Start","previousState":"Initializing","reason":"00000000-0000-0000-0000-000000000000","userErrorMessage":"","actualErrorMessage":"","showSpinner":"false","showServiceError":"false","showErrorText":"false","showPopupChanged":"false","showInfoTextChanged":"false","showSettingsMenu":"00000000-0000-0000-0000-000000000000","showNavigationIcon":"00000000-0000-0000-0000-000000000000","showBanner":"false","spinner":"false","AppServerEnvType":"Webex"}
+2023-09-17T19:16:46.899Z <Debug> [10856] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:46.899Z <Error> [10856] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:46.901Z <Debug> [6620] MainWindow.cpp:875 MainWindow::event:MainWindow WinIdChange
+2023-09-17T19:16:46.901Z <Debug> [6620] MainWindow.cpp:852 MainWindow::enableCustomTitleBar:enableCustomTitleBar
+2023-09-17T19:16:46.905Z <Debug> [6620] TopBar.cpp:82 TopBar::TopBar:Creating TopBar
+2023-09-17T19:16:46.905Z <Debug> [10856] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:46.908Z <Debug> [10856] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:46.909Z <Warn> [10856] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:46.911Z <Debug> [10856] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:46.913Z <Debug> [10856] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 1
+2023-09-17T19:16:46.915Z <Info> [6620] MainWindowWindows.cpp:72 MainWindow::platformOnInitialize:Set version support browser cross launch, result = 1, errorCode = 0
+2023-09-17T19:16:46.915Z <Debug> [6620] MainWindow.cpp:951 MainWindow::changeEvent:Main window changing to: Minimized
+2023-09-17T19:16:46.927Z <Info> [6620] ApplicationRunner.cpp:101 ApplicationRunner::startApplication:winId = 197652
+2023-09-17T19:16:46.928Z <Info> [6620] main.cpp:188 Main::changeWindowMessageFilter:ChangeWindowMessageFilterEx WM_COPYATA ret = 1 windowsId=197652
+2023-09-17T19:16:46.928Z <Warn> [6620] MeetingManagerWrapper.cpp:32 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, timerUtil, too long , main-thread busy?, 1828
+2023-09-17T19:16:46.975Z <Info> [6620] MainWindowWindows.cpp:238 MainWindow::initBeforeLogin::<lambda_b1a18ab244774621e39d99d59e0b604a>::operator ():teams is not login
+2023-09-17T19:16:46.975Z <Debug> [6620] OnboardingController.cpp:83 OnboardingController::{ctor}::<lambda_16d3ee7971b5ab37c05ffa74040bba4d>::operator ():Onboarding model Changed.
+2023-09-17T19:16:47.009Z <Debug> [10856] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.010Z <Warn> [10856] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.010Z <Debug> [10856] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.010Z <Debug> [10856] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.010Z <Debug> [10856] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.010Z <Debug> [10856] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":1,"visitedUrls":["https://ds.ciscospark.com"]}
+2023-09-17T19:16:47.010Z <Debug> [10856] HttpRequestManager.cpp:540 network::HttpRequestManager::createHttpConfig:Withholding access token
+2023-09-17T19:16:47.010Z <Debug> [10856] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.011Z <Debug> [10856] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.011Z <Error> [10856] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.014Z <Debug> [10856] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.028Z <Debug> [6620] OnboardingController.cpp:83 OnboardingController::{ctor}::<lambda_16d3ee7971b5ab37c05ffa74040bba4d>::operator ():Onboarding model Changed.
+2023-09-17T19:16:47.052Z <Debug> [10856] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.052Z <Warn> [10856] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.052Z <Debug> [10856] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.052Z <Debug> [10856] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.064Z <Debug> [1788] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":1,"visitedUrls":["https://ds.ciscospark.com"],"exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.064Z <Warn> [1788] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":1,"visitedUrls":["https://ds.ciscospark.com"],"httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.064Z <Debug> [1788] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.064Z <Debug> [1788] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.064Z <Debug> [1788] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.064Z <Debug> [1788] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":2,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com"]}
+2023-09-17T19:16:47.064Z <Debug> [1788] HttpRequestManager.cpp:540 network::HttpRequestManager::createHttpConfig:Withholding access token
+2023-09-17T19:16:47.076Z <Debug> [10680] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.076Z <Error> [10680] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.078Z <Debug> [1788] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.080Z <Debug> [10680] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.085Z <Debug> [10680] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.085Z <Warn> [10680] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.085Z <Debug> [10680] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.085Z <Debug> [10680] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.089Z <Debug> [10856] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":2,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com"],"exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.089Z <Warn> [10856] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":2,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com"],"httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.089Z <Debug> [10856] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.089Z <Debug> [10856] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.089Z <Debug> [10856] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.089Z <Debug> [10856] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":3,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com"]}
+2023-09-17T19:16:47.090Z <Debug> [10856] HttpRequestManager.cpp:540 network::HttpRequestManager::createHttpConfig:Withholding access token
+2023-09-17T19:16:47.090Z <Debug> [10856] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.090Z <Debug> [10856] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.090Z <Error> [10856] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.092Z <Debug> [10856] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.095Z <Debug> [10856] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.095Z <Warn> [10856] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.095Z <Debug> [10856] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.095Z <Debug> [10856] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.106Z <Debug> [12120] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":3,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com"],"exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.106Z <Warn> [12120] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":3,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com"],"httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.107Z <Debug> [12120] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.107Z <Debug> [12120] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.107Z <Debug> [12120] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.107Z <Debug> [12120] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":4,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com"]}
+2023-09-17T19:16:47.107Z <Debug> [12120] HttpRequestManager.cpp:540 network::HttpRequestManager::createHttpConfig:Withholding access token
+2023-09-17T19:16:47.107Z <Debug> [12120] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.107Z <Debug> [10856] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.107Z <Error> [10856] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.134Z <Debug> [10856] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.142Z <Debug> [10856] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.143Z <Warn> [10856] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.143Z <Debug> [10856] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.143Z <Debug> [10856] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.151Z <Debug> [12120] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":4,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com"],"exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.151Z <Warn> [12120] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":4,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com"],"httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.151Z <Debug> [12120] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.152Z <Debug> [12120] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.152Z <Debug> [12120] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.152Z <Debug> [12120] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":5,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com"]}
+2023-09-17T19:16:47.152Z <Debug> [12120] HttpRequestManager.cpp:540 network::HttpRequestManager::createHttpConfig:Withholding access token
+2023-09-17T19:16:47.152Z <Debug> [12120] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.152Z <Debug> [12120] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.152Z <Error> [12120] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.155Z <Debug> [12120] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.156Z <Warn> [6620] MeetingManagerWrapper.cpp:32 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, timerUtil, too long , main-thread busy?, 228
+2023-09-17T19:16:47.157Z <Debug> [12120] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.157Z <Warn> [12120] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.157Z <Debug> [12120] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.158Z <Debug> [12120] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.161Z <Debug> [12120] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":5,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com"],"exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.161Z <Warn> [12120] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":5,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com"],"httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.161Z <Debug> [12120] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.161Z <Debug> [12120] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.161Z <Warn> [12120] HttpRequestManager.cpp:1961 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed and we have no more retries or the error is non-retrieable","uri":"https://ds.ciscospark.com","method":"GET","action":"/v1/region","defaultUrl":"https://ds.ciscospark.com","currentUrl":"https://ds.ciscospark.com","retryable":false,"trackingId":"CLIENT_6bbc6981-5903-4661-969b-5248db320c94","cancellationId":"805f7c60-fb75-4a78-b611-b1117d4da577","requestRetryCount":0,"clientRetryCount":5,"visitedUrls":["https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com","https://ds.ciscospark.com"],"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.163Z <Warn> [12120] OnboardingViewModel.cpp:4706 commonHead::viewModels::OnboardingViewModel::fetchRegionInfo::<lambda_951e18e848d873c1f0aeedd42f1f8fb5>::operator ():[Onboarding] {"id":"Fetch region info failed on startLogin, defaulting","preLoginId":"NA","attemptId":"NA","countryCode":"US","regionCode":"US-WEST","timeZone":"America/Los_Angeles","clientRegion":""}
+2023-09-17T19:16:47.167Z <Debug> [12120] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862"}
+2023-09-17T19:16:47.168Z <Debug> [10680] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.168Z <Error> [10680] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.168Z <Debug> [12120] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: 805f7c60-fb75-4a78-b611-b1117d4da577, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.170Z <Debug> [10680] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.171Z <Debug> [10680] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.172Z <Warn> [10680] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.172Z <Debug> [10680] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.172Z <Debug> [10680] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.176Z <Debug> [10680] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.176Z <Warn> [10680] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.176Z <Debug> [10680] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.176Z <Debug> [10680] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.176Z <Debug> [10680] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.176Z <Debug> [10680] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":1,"visitedUrls":["https://metrics-a.wbx2.com"]}
+2023-09-17T19:16:47.176Z <Debug> [10856] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.176Z <Debug> [10680] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.176Z <Error> [10856] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.179Z <Debug> [10856] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.181Z <Debug> [10856] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.181Z <Warn> [10856] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.181Z <Debug> [10856] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.181Z <Debug> [10856] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.184Z <Debug> [10856] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":1,"visitedUrls":["https://metrics-a.wbx2.com"],"exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.184Z <Warn> [10856] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":1,"visitedUrls":["https://metrics-a.wbx2.com"],"httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.184Z <Debug> [10856] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.184Z <Debug> [10856] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.184Z <Debug> [10856] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.184Z <Debug> [10856] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":2,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"]}
+2023-09-17T19:16:47.185Z <Debug> [10856] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.185Z <Debug> [10680] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.185Z <Error> [10680] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.188Z <Debug> [10680] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.189Z <Debug> [10680] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.189Z <Warn> [10680] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.189Z <Debug> [10680] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.189Z <Debug> [10680] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.192Z <Debug> [10680] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":2,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"],"exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.192Z <Warn> [10680] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":2,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"],"httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.192Z <Debug> [10680] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.192Z <Debug> [10680] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.192Z <Debug> [10680] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.192Z <Debug> [10680] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":3,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"]}
+2023-09-17T19:16:47.193Z <Debug> [10680] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.193Z <Debug> [12120] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.193Z <Error> [12120] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.196Z <Debug> [12120] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.197Z <Debug> [12120] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.197Z <Warn> [12120] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.197Z <Debug> [12120] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.197Z <Debug> [12120] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.201Z <Debug> [12120] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":3,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"],"exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.201Z <Warn> [12120] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":3,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"],"httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.201Z <Debug> [12120] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.201Z <Debug> [12120] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.201Z <Debug> [12120] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.201Z <Debug> [12120] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":4,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"]}
+2023-09-17T19:16:47.201Z <Debug> [10856] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.201Z <Debug> [12120] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.201Z <Error> [10856] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.204Z <Debug> [10856] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.205Z <Debug> [10856] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.206Z <Warn> [10856] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.206Z <Debug> [10856] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.206Z <Debug> [10856] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.209Z <Debug> [10680] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":4,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"],"exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.209Z <Warn> [10680] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":4,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"],"httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.209Z <Debug> [10680] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.209Z <Debug> [10680] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.209Z <Debug> [10680] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.209Z <Debug> [10680] HttpRequestManager.cpp:1854 network::HttpRequestManager::httpRestRequest:{"id":"Making HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":5,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"]}
+2023-09-17T19:16:47.210Z <Debug> [10680] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 0
+2023-09-17T19:16:47.210Z <Debug> [12120] ProxyManager.cpp:171 network::ProxyManager::_getWebProxyAddressFromPlatform:About to request proxy for address for the probe address
+2023-09-17T19:16:47.210Z <Error> [12120] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: disable-winhttp-proxy
+2023-09-17T19:16:47.213Z <Debug> [12120] SystemProxy.cpp:120 Proxy::SystemProxy::log:ProxyStatus --  DiscoveryType: 2 BypassProxyConfigured: false AutoConfigDetected: true ProxyExtracted: false ProxyBypassExtracted: false WinHttpOpenSuccess: true WinHttpGetIEProxyConfigForCurrentUserSuccess: true WinHttpGetDefaultProxyConfigurationSuccess: false
+2023-09-17T19:16:47.214Z <Debug> [12120] ProxyUtils.cpp:199 getProxies:Proxy autoconfig - autoConfigUrl empty
+2023-09-17T19:16:47.214Z <Warn> [12120] ProxyUtils.cpp:265 getProxies:Proxy autoconfig - Failed to read auto-config proxy data. Error: 12180  
+2023-09-17T19:16:47.214Z <Debug> [12120] ProxyCallbackManager.cpp:15 network::ProxyStatusManager::getStatusForProxy:Found default proxy:
+2023-09-17T19:16:47.214Z <Debug> [12120] HttpRequestManager.cpp:2778 network::HttpRequestManager::createOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 1
+2023-09-17T19:16:47.217Z <Debug> [12120] HttpRequestManager.cpp:2622 network::HttpRequestManager::_httpWebRequest::<lambda_3beef32b64b6abf94a2af684616bc015>::operator ():{"id":"Failed to create HTTP request","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":5,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"],"exception":"WinHttpSendRequest: 12007: The server name or address could not be resolved
+","wasDisconnected":true,"clientError":true,"clientErrorCode":12007}
+2023-09-17T19:16:47.218Z <Warn> [12120] HttpRequestManager.cpp:1932 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":5,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"],"httpStatus":0,"errorCode":12007,"sslError":false,"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.218Z <Debug> [12120] ProxyManager.cpp:460 network::ProxyManager::resetProxyIfNeeded::<lambda_8a41c83567d62355ef7e82ff6ac2a4b0>::operator ():Resetting Proxy cache record
+2023-09-17T19:16:47.218Z <Debug> [12120] HttpRequest.cpp:514 network::HttpRequest::buildRetry:Building retry, is401Retry:0, clientError: 1, retryAfterSeconds: 0
+2023-09-17T19:16:47.218Z <Warn> [12120] HttpRequestManager.cpp:1961 network::HttpRequestManager::_httpRestRequest::<lambda_edff0e007fc762cccd61456373c89835>::operator ():{"id":"HTTP request failed and we have no more retries or the error is non-retrieable","uri":"https://metrics-a.wbx2.com","method":"POST","action":"/metrics/api/v1/clientmetrics-prelogin","defaultUrl":"https://metrics-a.wbx2.com","currentUrl":"https://metrics-a.wbx2.com","retryable":false,"trackingId":"CLIENT_edf1c312-ae66-439d-84d0-517455eed4ad","cancellationId":"b9f66360-7a58-4b4b-8900-def33edd3862","requestRetryCount":0,"clientRetryCount":5,"visitedUrls":["https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com","https://metrics-a.wbx2.com"],"networkTimings":[0,0,0,0]}
+2023-09-17T19:16:47.218Z <Debug> [12120] HttpRequestManager.cpp:2839 network::HttpRequestManager::_removeOutstandingRequest:requestId: b9f66360-7a58-4b4b-8900-def33edd3862, Outstanding HTTP requests: 0
+2023-09-17T19:16:49.187Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:16:52.194Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:16:55.194Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:16:58.194Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:00.334Z <Debug> [12120] StateMachine.h:157 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::NetworkStateEnum,enum NetworkEvent>::_updateTimer::<lambda_60ce4baadd8dbf8a235eceef9c7a66ca>::operator ():ConnectivityStateMachine::Network - NoNetwork -> NoNetworkAfterTimeout : {timeout}
+2023-09-17T19:17:00.334Z <Debug> [12120] StateMachine.h:121 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::BannerStateEnum,enum ConnectivityBanner::BannerEventEnum>::_handleEvent:ConnectivityStateMachine::ConnectivityBanner - Connected -> NoNetwork : {NoNetworkAfterTimeout}
+2023-09-17T19:17:00.334Z <Info> [12120] ConnectivityBannerStateMachine.cpp:223 ConnectivityBanner::StateMachine::showBanner:ConnectivityStateMachine::ConnectivityBanner Showing Banner Text - 'No network connection'
+2023-09-17T19:17:01.193Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:04.193Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:07.193Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:10.193Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:13.193Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:16.192Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:19.192Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:22.192Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:25.192Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:28.192Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:31.191Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:34.191Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:37.191Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:40.191Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:43.191Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:45.331Z <Debug> [12120] StateMachine.h:157 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::MercuryStateEnum,enum MercuryState>::_updateTimer::<lambda_edf41b7a7045d376ed94444ecb06d8e2>::operator ():ConnectivityStateMachine::Mercury - Disconnected -> DisconnectedShortTerm : {timeout}
+2023-09-17T19:17:45.331Z <Error> [12120] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-conban-long-term-outage-wait
+2023-09-17T19:17:45.331Z <Debug> [12120] States.h:60 ConnectivityBanner::Timeout<enum ConnectivityBanner::MercuryStateEnum>::getTimeout:ConnectivityBannerStateMachine - Returning default timeout of 240seconds.
+2023-09-17T19:17:45.331Z <Debug> [1788] StateMachine.h:157 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::AuthenticationStateEnum,enum NetworkEvent>::_updateTimer::<lambda_20620e4d2f2dc363110108ff03ede552>::operator ():ConnectivityStateMachine::Authentication - UserNotAuthenticated -> UserNotAuthenticatedShortTerm : {timeout}
+2023-09-17T19:17:45.331Z <Error> [1788] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-conban-long-term-outage-wait
+2023-09-17T19:17:45.331Z <Debug> [12120] ServicesStateMachine.cpp:130 ConnectivityBanner::ServicesStateMachine::deriveNewState:ConnectivityStateMachine::Services [MercuryState:DisconnectedShortTerm] + [AuthState:UserNotAuthenticatedShortTerm] == [NewServicesState:DisconnectedShortTerm]
+2023-09-17T19:17:45.331Z <Debug> [1788] States.h:60 ConnectivityBanner::Timeout<enum ConnectivityBanner::AuthenticationStateEnum>::getTimeout:ConnectivityBannerStateMachine - Returning default timeout of 240seconds.
+2023-09-17T19:17:45.331Z <Debug> [12120] StateMachine.h:121 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::ServicesStateEnum,enum ConnectivityBanner::ServicesStateEnum>::_handleEvent:ConnectivityStateMachine::Services - Connected -> DisconnectedShortTerm : {DisconnectedShortTerm}
+2023-09-17T19:17:45.331Z <Debug> [1788] ServicesStateMachine.cpp:130 ConnectivityBanner::ServicesStateMachine::deriveNewState:ConnectivityStateMachine::Services [MercuryState:DisconnectedShortTerm] + [AuthState:UserNotAuthenticatedShortTerm] == [NewServicesState:DisconnectedShortTerm]
+2023-09-17T19:17:45.331Z <Debug> [12120] StateMachine.h:109 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::BannerStateEnum,enum ConnectivityBanner::BannerEventEnum>::_handleEvent:ConnectivityStateMachine::ConnectivityBanner - Unexpected event {ServicesDisconnectedShortTerm} for state [NoNetwork]
+2023-09-17T19:17:45.331Z <Debug> [1788] StateMachine.h:109 ConnectivityBanner::StateMachineBase<enum ConnectivityBanner::ServicesStateEnum,enum ConnectivityBanner::ServicesStateEnum>::_handleEvent:ConnectivityStateMachine::Services - Unexpected event {DisconnectedShortTerm} for state [DisconnectedShortTerm]
+2023-09-17T19:17:46.190Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:49.190Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:52.190Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:55.190Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:58.190Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:17:58.384Z <Warn> [6620] MeetingManagerWrapper.cpp:32 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, timerUtil, too long , main-thread busy?, 460
+2023-09-17T19:18:01.051Z <Warn> [6620] MeetingManagerWrapper.cpp:32 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, timerUtil, too long , main-thread busy?, 479
+2023-09-17T19:18:01.196Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:04.195Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:07.195Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:10.195Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:13.195Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:16.195Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:19.194Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:22.194Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:25.194Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:28.194Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:31.193Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:34.193Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:37.193Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:40.193Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:43.193Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:46.192Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:49.192Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:52.192Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:55.192Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:18:58.192Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:01.191Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:04.191Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:07.191Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:10.191Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:13.191Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:16.190Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:19.190Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:22.190Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:25.190Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:28.190Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:31.189Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:34.189Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:37.189Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:40.189Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:43.188Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:46.188Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:49.188Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:52.188Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:55.188Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:19:58.187Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:01.187Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:04.187Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:07.187Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:10.187Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:13.186Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:16.186Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:19.186Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:22.186Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:25.186Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:28.185Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:31.185Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:34.185Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:37.185Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:40.185Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:43.184Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:46.184Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:49.184Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:52.184Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:55.183Z <Debug> [1788] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:20:58.183Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:21:01.183Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:21:04.183Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:21:07.183Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:21:10.182Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:21:13.182Z <Debug> [12120] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:21:16.182Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:21:19.182Z <Debug> [10856] MeetingUtils.cpp:908 commonHead::MeetingUtils::supportWebexCrossLaunchPmr:Failed to get contact info
+2023-09-17T19:21:20.074Z <Debug> [6620] MainWindowNativeEventHandler.cpp:421 MainWindowNativeEventHandler::processNativeEvent:Got activation message, pMsg->lParam = 7496
+2023-09-17T19:21:20.074Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: desktop-active-cpu-monitor-enabled
+2023-09-17T19:21:20.108Z <Debug> [6620] MainWindow.cpp:961 MainWindow::changeEvent:Main window changing to: WindowNoState
+2023-09-17T19:21:20.108Z <Debug> [6620] SparkApp.cpp:354 SparkApp::onFocusObjectChanged:Focus object changed: header|[QWidget]
+2023-09-17T19:21:20.109Z <Debug> [6620] SparkApp.cpp:362 SparkApp::onFocusChanged:Focus changed: NULL, header|[QWidget]
+2023-09-17T19:21:21.740Z <Debug> [6620] TopBar.cpp:191 TopBar::initBar::<lambda_6e6b06553c091375bbd6b09a339819fc>::operator ():Close button pressed
+2023-09-17T19:21:21.741Z <Debug> [6620] MainWindow.cpp:1057 MainWindow::onExit:Exit requested
+2023-09-17T19:21:21.741Z <Info> [6620] RequestJoinMeetingViewManager.cpp:349 RequestJoinMeetingViewManager::hideConnectingWidget:hide connect dialog
+2023-09-17T19:21:21.741Z <Debug> [6620] MainWindow.cpp:1079 MainWindow::doClose:Do Exit
+2023-09-17T19:21:21.741Z <Info> [6620] CommonHeadFramework.cpp:217 commonHead::CommonHeadFramework::deinit:Entering
+2023-09-17T19:21:21.741Z <Info> [6620] WhiteboardSessionManager.cpp:83 commonHead::WhiteboardSessionManager::deinit:Clearing WhiteboardSessionManager data
+2023-09-17T19:21:21.741Z <Info> [6620] WebExCrossLaunch.cpp:320 commonHead::WebExCrossLaunch::stop:XLaunch
+2023-09-17T19:21:21.741Z <Info> [6620] WebExCrossLaunch.cpp:3348 commonHead::WebExCrossLaunch::stopMeetingDiscovery:XLaunch.
+2023-09-17T19:21:21.741Z <Info> [6620] MeetingDiscovery_win.cpp:36 commonHead::crosslaunch::MeetingDiscovery::stop:
+2023-09-17T19:21:21.741Z <Info> [6620] MeetingListener.cpp:36 commonHead::crosslaunch::MeetingListener::stop:
+2023-09-17T19:21:21.741Z <Info> [6620] MeetingListener.cpp:24 commonHead::crosslaunch::MeetingListener::~MeetingListener:
+2023-09-17T19:21:21.742Z <Info> [6620] WebExCrossLaunch.cpp:3471 commonHead::WebExCrossLaunch::unInitMeetingManagerWrapper:XLaunch.
+2023-09-17T19:21:21.742Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::Ipc::close, ipcId=1, mReady=TRUE
+2023-09-17T19:21:21.742Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::Ipc::byebye, ipcId=1, (int)reason=65530
+2023-09-17T19:21:21.742Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::updateStatus, ipcId=1, mReady=FALSE, (int)reason=65530
+2023-09-17T19:21:21.742Z <Warn> [5384] MeetingManagerWrapper.cpp:32 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, IpcManager::wait4ApplicationQuit, leave, (bool)mQuitWaitThread=TRUE
+2023-09-17T19:21:21.743Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::Ipc::doClose, ipcId=1, mReady=FALSE, mFragments.size()=0
+2023-09-17T19:21:21.743Z <Info> [7572] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Write thread is ended, ipcId=1
+2023-09-17T19:21:21.743Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::doClose, set mStatusCallback to nullptr
+2023-09-17T19:21:21.743Z <Info> [2912] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, read thread is ended
+2023-09-17T19:21:21.744Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::Ipc::doClose, ipcId=1, mReady=FALSE
+2023-09-17T19:21:21.744Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, Ipc::~Ipc, ipcId=1, mNextInvokeId=9039
+2023-09-17T19:21:21.744Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, ipcShutdown, 0x00007FFDE0BC7E7C, sCountOfReference=1
+2023-09-17T19:21:21.744Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, IpcManager::close, mConnections.size()=0
+2023-09-17T19:21:21.744Z <Info> [6620] WebExCrossLaunch.cpp:3286 commonHead::WebExCrossLaunch::stopWbxMeetingCommunicator:XLaunch
+2023-09-17T19:21:21.744Z <Info> [6620] ProcessTerminationMonitor_win.cpp:20 commonHead::ProcessTerminationMonitor::~ProcessTerminationMonitor:
+2023-09-17T19:21:21.744Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::Async::destroy
+2023-09-17T19:21:21.744Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::AsyncWin::destroy -- begin:, mWindowHandle=0x000000000001040A, mMainThreadId=6620, currentThreadId=6620
+2023-09-17T19:21:21.744Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::AsyncWin::doDestroy, mWindowHandle=0x000000000001040A
+2023-09-17T19:21:21.745Z <Info> [6620] MeetingManagerWrapper.cpp:26 commonHead::crosslaunch::WBXLogger::logMessage:MSEUtility, XLaunch: MseLog, mseutil::AsyncWin::destroy -- end!
+2023-09-17T19:21:21.745Z <Debug> [6620] SparkApp.cpp:354 SparkApp::onFocusObjectChanged:Focus object changed: MainWindowClass|[MainWindow]
+2023-09-17T19:21:21.745Z <Debug> [6620] SparkApp.cpp:362 SparkApp::onFocusChanged:Focus changed: header|[QWidget], NULL
+2023-09-17T19:21:21.745Z <Debug> [6620] MainWindow.cpp:1102 MainWindow::doClose:unsetting the window state
+2023-09-17T19:21:21.748Z <Debug> [6620] MainWindow.cpp:660 MainWindow::~MainWindow:MainWindow dtor
+2023-09-17T19:21:21.748Z <Debug> [6620] SparkApp.cpp:354 SparkApp::onFocusObjectChanged:Focus object changed: NULL
+2023-09-17T19:21:21.806Z <Info> [6620] CoreFramework.cpp:290 CoreFramework::_exit:***************************************************
+2023-09-17T19:21:21.806Z <Info> [6620] CoreFramework.cpp:291 CoreFramework::_exit:*****Exiting. Mode: Exit*****
+2023-09-17T19:21:21.806Z <Info> [6620] CoreFramework.cpp:292 CoreFramework::_exit:***************************************************
+2023-09-17T19:21:21.806Z <Error> [6620] FeatureSettingsManager.cpp:435 FeatureSettingsManager::getSetting:Attempting to read value from DB before config store has been read. Key: send-logger-telemetry
+2023-09-17T19:21:21.806Z <Debug> [6620] CoreFramework.cpp:309 CoreFramework::_exit:Exit services
+2023-09-17T19:21:21.806Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onExit for service: ContactService
+2023-09-17T19:21:21.806Z <Debug> [6620] CoreFramework.cpp:345 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Start exit service: ContactService
+2023-09-17T19:21:21.806Z <Debug> [6620] CoreFramework.cpp:348 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Incrementing async exit condition reference count for ContactService
+2023-09-17T19:21:21.806Z <Debug> [6620] CoreFramework.cpp:351 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Finished exit service: ContactService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onExit for service: DynamicDependenciesService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:345 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Start exit service: DynamicDependenciesService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:351 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Finished exit service: DynamicDependenciesService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onExit for service: OAuthHelperService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:345 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Start exit service: OAuthHelperService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:351 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Finished exit service: OAuthHelperService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onExit for service: OnboardingService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:345 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Start exit service: OnboardingService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:351 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Finished exit service: OnboardingService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onExit for service: TelemetryService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:345 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Start exit service: TelemetryService
+2023-09-17T19:21:21.807Z <Debug> [6620] TelemetryModel.cpp:48 model::TelememtryPersistBatch::flushToPersistency:Shutting down 
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:351 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Finished exit service: TelemetryService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onExit for service: UpgradeService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:345 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Start exit service: UpgradeService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:351 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Finished exit service: UpgradeService
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: onExit for service: WebexMeetingServicePreLogin
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:345 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Start exit service: WebexMeetingServicePreLogin
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:351 CoreFramework::_exit::<lambda_41f56caeccae2f76fcaa8f7f47c18916>::operator ():Finished exit service: WebexMeetingServicePreLogin
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:354 CoreFramework::_exit:Exit MediaEngine
+2023-09-17T19:21:21.807Z <Debug> [6620] CoreFramework.cpp:364 CoreFramework::_exit:Wait for 1st asynchronous exit condition
+2023-09-17T19:21:21.811Z <Debug> [12120] CoreFramework.cpp:321 CoreFramework::_exit::<lambda_802114ec5904def00b76142e6db3a56f>::()::<lambda_a322e548f05ef932331211c6719372fb>::operator ():Successfully exited ContactService asynchronously
+2023-09-17T19:21:21.811Z <Debug> [6620] CoreFramework.cpp:381 CoreFramework::_exit:Wait for 2nd asynchronous exit condition
+2023-09-17T19:21:21.811Z <Debug> [6620] CoreFramework.cpp:388 CoreFramework::_exit:Stop mNetworkPowerEventTaskManager
+2023-09-17T19:21:21.811Z <Debug> [6620] CoreFramework.cpp:393 CoreFramework::_exit:Exit NetworkManager
+2023-09-17T19:21:21.811Z <Debug> [6620] NetworkManager.cpp:620 network::NetworkManager::shouldRevokeTokensOnExit:Should revoke tokens on exit 0
+2023-09-17T19:21:21.811Z <Debug> [6620] NetworkManager.cpp:614 network::NetworkManager::shouldDeleteDeviceOnExit:Should delete device on exit is 0
+2023-09-17T19:21:21.811Z <Debug> [6620] NetworkManager.cpp:1752 network::NetworkManager::releaseMercuryConnectionsOnExit:Start releaseMercuryConnections, connection size is 0
+2023-09-17T19:21:21.812Z <Debug> [6620] NetworkManager.cpp:1772 network::NetworkManager::releaseMercuryConnectionsOnExit:Signout of all mercury connections succeeded.
+2023-09-17T19:21:21.812Z <Debug> [6620] TaskManager.cpp:29 network::TaskManager::onExit:TasMabager: 0x0000023762C5BCF0
+2023-09-17T19:21:21.812Z <Debug> [6620] TaskManager.cpp:29 network::TaskManager::onExit:TasMabager: 0x0000023762CE35F0
+2023-09-17T19:21:21.812Z <Info> [6620] NetworkManager.cpp:694 network::NetworkManager::onExit:Signed out of network layer
+2023-09-17T19:21:21.812Z <Debug> [6620] TaskManager.cpp:29 network::TaskManager::onExit:TasMabager: 0x0000023762C5C010
+2023-09-17T19:21:21.812Z <Debug> [6620] DataWarehouse.cpp:306 DataWarehouse::onExit:Exiting datawarehouse
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:433 CoreFramework::_exit:Deinitialize services
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: deInitComponent for service: ContactService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:450 CoreFramework::_exit::<lambda_256f406842469160dbcfbf52163e685b>::operator ():Calling deinitComponent() for ContactService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: deInitComponent for service: DynamicDependenciesService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:450 CoreFramework::_exit::<lambda_256f406842469160dbcfbf52163e685b>::operator ():Calling deinitComponent() for DynamicDependenciesService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: deInitComponent for service: OAuthHelperService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:450 CoreFramework::_exit::<lambda_256f406842469160dbcfbf52163e685b>::operator ():Calling deinitComponent() for OAuthHelperService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: deInitComponent for service: OnboardingService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:450 CoreFramework::_exit::<lambda_256f406842469160dbcfbf52163e685b>::operator ():Calling deinitComponent() for OnboardingService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: deInitComponent for service: TelemetryService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:450 CoreFramework::_exit::<lambda_256f406842469160dbcfbf52163e685b>::operator ():Calling deinitComponent() for TelemetryService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: deInitComponent for service: UpgradeService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:450 CoreFramework::_exit::<lambda_256f406842469160dbcfbf52163e685b>::operator ():Calling deinitComponent() for UpgradeService
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:123 CoreFramework::forEachServiceUntilDone:Service operation: deInitComponent for service: WebexMeetingServicePreLogin
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:450 CoreFramework::_exit::<lambda_256f406842469160dbcfbf52163e685b>::operator ():Calling deinitComponent() for WebexMeetingServicePreLogin
+2023-09-17T19:21:21.821Z <Debug> [6620] CoreFramework.cpp:460 CoreFramework::_exit:Done deinitializing services.
+2023-09-17T19:21:21.825Z <Debug> [6620] CoreFramework.cpp:464 CoreFramework::_exit:Deinitialize Media Engine
+2023-09-17T19:21:21.825Z <Debug> [6620] DataWarehouse.cpp:294 DataWarehouse::deinitComponent:De-initing datawarehouse. 0000023762B8EB80
+2023-09-17T19:21:21.825Z <Debug> [6620] DBWrapper.cpp:333 DatabaseWrapper::DBWrapper::deinit:Deiniting DBWrapper: 0000023762C69B20
+2023-09-17T19:21:21.825Z <Debug> [6620] DBWrapper.cpp:333 DatabaseWrapper::DBWrapper::deinit:Deiniting DBWrapper: 0000023762C74F30
+2023-09-17T19:21:21.825Z <Info> [6620] CoreFramework.cpp:508 CoreFramework::_exit:***************************************************
+2023-09-17T19:21:21.825Z <Info> [6620] CoreFramework.cpp:509 CoreFramework::_exit:*****Exit Completed in 20ms*****
+2023-09-17T19:21:21.825Z <Info> [6620] CoreFramework.cpp:510 CoreFramework::_exit:***************************************************
+2023-09-17T19:21:21.828Z <Info> [6620] CWSWrapper_win.cpp:28 commonHead::crosslaunch::CWSWrapper::~CWSWrapper:
+2023-09-17T19:21:21.859Z <Info> [6620] RootLogger:0 :Exiting. Shutting down logger

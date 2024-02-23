@@ -1,0 +1,47 @@
+{
+	"name": "vscode-theme-dark-atom-dark-green-cursor",
+	"displayName": "Dark Atom Dark Green Cursor Theme",
+	"description": "Beautiful Atom Dark with green Cursor eyecandy",
+	"version": "1.0.0",
+	"publisher": "therealmarv",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/therealmarv/vscode-theme-dark-atom-dark-green-cursor"
+	},
+	"bugs": {
+		"url": "https://github.com/therealmarv/vscode-theme-dark-atom-dark-green-cursor/issues",
+		"email": "therealmarv@gmail.com"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Atom Dark Green Cursor",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark_atom_dark_green_cursor.tmTheme"
+			},
+			{
+				"label": "Dark Atom Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark_atom_dark.tmTheme"
+			}
+		]
+	},
+	"license": "MIT",
+	"__metadata": {
+		"id": "2a6fdb84-519e-4ca1-87f3-ca2f97267e29",
+		"publisherId": "db3dca0b-c825-4483-96dd-2cfd6178fb73",
+		"publisherDisplayName": "therealmarv",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1708576654318
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "git": {
+    "commit": false,
+    "tag": true,
+    "push": true
+  },
+  "github": {
+    "release": true,
+    "autoGenerate": true,
+    "preRelease": false,
+    "draft": false,
+    "web": false
+  },
+  "npm": false
+}

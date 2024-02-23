@@ -1,0 +1,84 @@
+{
+	"name": "smart-css-autocomplete",
+	"displayName": "Smart CSS Autocomplete",
+	"description": "Autocomplete CSS properties smarter - using an usage statistics instead of standard random",
+	"license": "MIT",
+	"version": "1.5.3",
+	"categories": [
+		"Programming Languages"
+	],
+	"author": "Saionaro <shibakow@gmail.com>",
+	"publisher": "saionaro",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Saionaro/smart-css-autocomplete.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Saionaro/smart-css-autocomplete/issues"
+	},
+	"icon": "icon.png",
+	"keywords": [
+		"autocomplete",
+		"suggestions",
+		"css",
+		"less",
+		"scss",
+		"props",
+		"properties"
+	],
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"activationEvents": [
+		"onLanguage:css",
+		"onLanguage:scss",
+		"onLanguage:less"
+	],
+	"main": "./out/extension",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -b",
+		"update-css-props": "node scripts/update-props-base.js",
+		"typecheck": "tsc --noEmit",
+		"watch": "tsc -b -w",
+		"lint": "eslint --ext .ts src",
+		"format": "prettier --write",
+		"release": "semantic-release",
+		"test": "jest",
+		"test-dev": "jest --watch"
+	},
+	"dependencies": {
+		"fuzzy-search": "^3.2.1"
+	},
+	"devDependencies": {
+		"@arkweid/lefthook": "^0.7.6",
+		"@commitlint/cli": "^13.1.0",
+		"@commitlint/config-conventional": "^13.1.0",
+		"@semantic-release/git": "^9.0.0",
+		"@types/fuzzy-search": "^2.1.1",
+		"@types/jest": "^27.0.1",
+		"@types/node": "^16.7.4",
+		"@types/vscode": "^1.43.0",
+		"@typescript-eslint/eslint-plugin": "^4.29.3",
+		"@typescript-eslint/parser": "^4.29.3",
+		"babel-jest": "^27.1.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.3.0",
+		"jest": "^27.1.0",
+		"prettier": "^2.3.2",
+		"semantic-release": "^17.4.7",
+		"semantic-release-vsce": "^3.4.1",
+		"ts-jest": "^27.0.5",
+		"typescript": "^4.4.2"
+	},
+	"__metadata": {
+		"id": "116224e0-c915-4307-b163-08119db0c0ec",
+		"publisherId": "a1a8ae02-48e8-4cf0-bb2a-1f7c008a5ab1",
+		"publisherDisplayName": "Artem Shibakov",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1708576654911
+	}
+}
